@@ -1,8 +1,9 @@
 from urllib.request import Request, urlopen
 
 def fetch_random_dad_joke() -> str:
+
     """
-    Ja sam programer ha ha ha 
+   fatch a dad joke in the develop branch
     """
     req = Request(
         url="https://icanhazdadjoke.com/",
