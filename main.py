@@ -1,6 +1,10 @@
 from urllib.request import Request, urlopen
 
 def fetch_random_dad_joke() -> str:
+
+    """
+   fatch a dad joke in the develop branch
+    """
     req = Request(
         url="https://icanhazdadjoke.com/",
         headers={
